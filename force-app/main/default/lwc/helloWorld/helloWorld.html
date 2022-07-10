@@ -1,0 +1,22 @@
+<template>
+   
+    <lightning-card  title="First Lightning Card">
+        <!-- <div>
+            Hello World {fullName}
+        </div> -->
+        <div class="slds-var-m-around_medium">
+        <lightning-input type="text" label="Enter Text"  onkeyup={changeHandler}></lightning-input>
+        <div>  My title {title}  </div>   
+    </div>
+    </lightning-card>
+    <lightning-card  title="track properties Lightning Card">
+        
+        <div class="slds-var-m-around_medium">
+        <lightning-input type="text" label="Enter Text"  onkeyup={eventHandler}></lightning-input>
+        <div>  My City is {address.city}  </div>   
+    </div>
+    </lightning-card>
+    <lightning-card  title="Getters Lightning Card">
+        <div>  My username is {firstuser} and sum of {num1} and {num2} is {sumofnumbers} </div>   
+    </lightning-card>
+</template>
